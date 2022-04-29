@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="LeoMa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-28 04:34:44 "/>
+        <attribute name="created" value="TGVvTWE7Tk9URUxFTzsyMDIyLTA0LTI4OyIwNDoxMjo0MiAiOzIxODQ="/>
+        <attribute name="edited" value="TGVvTWE7Tk9URUxFTzsyMDIyLTA0LTI4OyIwNDozNDo0NCAiOzE7MjI5OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, sobrenome" type="String" array="False" size=""/>
+            <declare name="peso" type="Real" array="False" size=""/>
+            <output expression="&quot;qual e o seu nome?&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;qual e o seu sobrenome?&quot;" newline="True"/>
+            <input variable="sobrenome"/>
+            <output expression="&quot;qual e o seu peso ?&quot;" newline="True"/>
+            <input variable="peso"/>
+            <output expression="nome &amp; &quot; &quot; &amp; sobrenome &amp; &quot;seu peso e:&quot; &amp; peso" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

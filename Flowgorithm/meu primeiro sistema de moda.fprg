@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="LeoMa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-28 03:12:07 "/>
+        <attribute name="created" value="TGVvTWE7Tk9URUxFTzsyMDIyLTA0LTI4OyIwMjo1NjoyMSAiOzIxODc="/>
+        <attribute name="edited" value="TGVvTWE7Tk9URUxFTzsyMDIyLTA0LTI4OyIwMzoxMjowNyAiOzg7MjI5OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="camiseta, vestido, saia, bolsa, total" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o valor da camiseta&quot;" newline="True"/>
+            <input variable="camiseta"/>
+            <output expression="&quot;digita o valor do vestido&quot;" newline="True"/>
+            <input variable="vestido"/>
+            <output expression="&quot;digita o valor saia&quot;" newline="True"/>
+            <input variable="saia"/>
+            <output expression="&quot;digita valor da bolsa&quot;" newline="True"/>
+            <input variable="bolsa"/>
+            <assign variable="total" expression="(camiseta+vestido+saia+bolsa)"/>
+            <output expression="total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
